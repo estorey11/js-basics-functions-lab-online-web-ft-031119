@@ -11,6 +11,8 @@ function distanceTravelledInFeet(block1, block2){
   return Math.abs((block1-block2)*264)
 }
 
-function distanceTravelledInFeet(block1, block2){
-  return Math.abs((block1-block2)*264)
+function calculatesFarePrice(block1, block2){
+  switch(distanceTravelledInFeet(block1, block2)){
+    case(<400) return 0;
+  }
 }
