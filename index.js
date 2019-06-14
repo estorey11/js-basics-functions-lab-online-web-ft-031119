@@ -12,8 +12,9 @@ function distanceTravelledInFeet(block1, block2){
 }
 
 function calculatesFarePrice(block1, block2){
-  switch(distanceTravelledInFeet(block1, block2)){
-    case(<400): return 0;
-    case()
-  }
+  const feet=distanceTravelledInFeet(block1, block2)
+  if feet<400{return 0;}
+  else if feet<2000{return (feet-400)*.02}
+  else if feet<2500{return 25}
+  else{return 
 }
