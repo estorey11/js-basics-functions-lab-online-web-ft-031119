@@ -13,6 +13,6 @@ function distanceTravelledInFeet(block1, block2){
 
 function calculatesFarePrice(block1, block2){
   switch(distanceTravelledInFeet(block1, block2)){
-    case(<400) return 0;
+    case(<400): return 0;
   }
 }
